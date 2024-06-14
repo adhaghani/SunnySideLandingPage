@@ -1,0 +1,38 @@
+#Navigation {
+  display: flex;
+  height: 80px;
+}
+#Navigation .container {
+  height: 100%;
+  background-color: #3ebfff;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding_020);
+}
+#Navigation .container .Logo h2 {
+  color: var(--color_white);
+}
+#Navigation .container .Action {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+#Navigation .container .Action ul {
+  display: flex;
+  gap: 40px;
+}
+#Navigation .container .Action ul li a {
+  color: var(--color_white);
+  font-size: 18px;
+}
+#Navigation .container .Action button {
+  background-color: var(--color_white);
+  padding: var(--padding_1520);
+  font-family: var(--font_title);
+  font-weight: 900;
+  border-radius: 25px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=Navigation.css.map */

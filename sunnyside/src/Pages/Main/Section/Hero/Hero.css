@@ -1,0 +1,30 @@
+#Hero .container {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  background-color: #3ebfff;
+}
+#Hero .container picture {
+  width: 100%;
+  height: 100%;
+}
+#Hero .container picture img {
+  width: 100%;
+  height: 100%;
+}
+#Hero .Main-Text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+#Hero .Main-Text h1 {
+  font-family: var(--font_title);
+  color: var(--color_white);
+  font-size: clamp(24px, 5vw, 64px);
+  letter-spacing: 5px;
+}
+#Hero .Main-Text img {
+  width: 40px;
+}/*# sourceMappingURL=Hero.css.map */
