@@ -1,0 +1,22 @@
+#Footer .container {
+  margin: auto;
+  background-color: #90d4c5;
+  padding: 40px 0px;
+}
+#Footer .container .Title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#Footer .container .Links ul,
+#Footer .container .Socials ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+#Footer .container .Links ul li a,
+#Footer .container .Socials ul li a {
+  font-size: 18px;
+  color: var(--color_dark_moderate_cyan);
+}/*# sourceMappingURL=Footer.css.map */

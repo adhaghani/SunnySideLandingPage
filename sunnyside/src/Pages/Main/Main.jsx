@@ -6,7 +6,7 @@ import Hero from "./Section/Hero/Hero";
 import About from "./Section/About/About";
 import Scope from "./Section/Scope/Scope";
 import Testimonial from "./Section/Testimonial/Testimonial";
-
+import Footer from "../../Component/Footer/Footer";
 import "./Main.css";
 const Main = () => {
   return (
@@ -16,6 +16,7 @@ const Main = () => {
       <About />
       <Scope />
       <Testimonial />
+      <Footer />
     </div>
   );
 };

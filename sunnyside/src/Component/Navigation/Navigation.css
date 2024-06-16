@@ -35,4 +35,10 @@
   border-radius: 25px;
   cursor: pointer;
   letter-spacing: 1px;
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  #Navigation .container .Action {
+    display: none;
+  }
 }/*# sourceMappingURL=Navigation.css.map */

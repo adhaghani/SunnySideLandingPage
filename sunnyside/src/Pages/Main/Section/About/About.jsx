@@ -32,6 +32,7 @@ const About = () => {
                 </div>
                 <div className="link">
                   <a href="">Learn More</a>
+                  <div className="border"></div>
                 </div>
               </div>
             </div>
@@ -55,7 +56,7 @@ const About = () => {
                 </div>
                 <div className="link">
                   <a href="">Learn More</a>
-                  <div className="border">Border</div>
+                  <div className="border"></div>
                 </div>
               </div>
             </div>

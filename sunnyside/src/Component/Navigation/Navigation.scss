@@ -40,3 +40,13 @@
     }
   }
 }
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  #Navigation {
+    .container {
+      .Action {
+        display: none;
+      }
+    }
+  }
+}

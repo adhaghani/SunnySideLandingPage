@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<GITHUB_USERNAME>.github.io/SunnySideLandingPage",
+  "homepage": "https://adhaghani.github.io/SunnySideLandingPage",
   "scripts": {
     "gh-pages-build": "vite build --base=/SunnySideLandingPage/",
     "gh-pages-deploy": "gh-pages -d dist",

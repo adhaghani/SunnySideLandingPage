@@ -1,0 +1,49 @@
+#Scope {
+  .container {
+    margin: auto;
+    .section-container {
+      display: flex;
+      flex-wrap: wrap;
+      .section {
+        width: 50%;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .image {
+          img {
+            width: 100%;
+          }
+        }
+        .details {
+          position: absolute;
+          width: 320px;
+          text-align: center;
+          transform: translateY(120px);
+          .title {
+            margin-bottom: 20px;
+            h1 {
+              font-family: var(--font_title);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  #Scope {
+    .container {
+      .section-container {
+        flex-direction: column;
+
+        .section {
+          width: 100%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
