@@ -16,13 +16,13 @@ const Scope = () => {
           <div className="section">
             <div className="image">
               <picture>
-                <source media="(min-width: 768px)" srcSet={GraphicDesktop} />
+                <source media="(min-width: 500px)" srcSet={GraphicDesktop} />
                 <img src={GraphicMobile} alt="" />
               </picture>
             </div>
             <div className="details">
               <div className="title">
-                <h1>Graphic Design</h1>
+                <h2>Graphic Design</h2>
               </div>
               <div className="subtitle">
                 <p>
@@ -37,7 +37,7 @@ const Scope = () => {
             <div className="image">
               <picture>
                 <source
-                  media="(min-width: 768px)"
+                  media="(min-width: 500px)"
                   srcSet={PhotographyDesktop}
                 />
                 <img src={PhotographyMobile} alt="" />
@@ -45,7 +45,7 @@ const Scope = () => {
             </div>
             <div className="details">
               <div className="title">
-                <h1>Photography</h1>
+                <h2>Photography</h2>
               </div>
               <div className="subtitle">
                 <p>

@@ -13,19 +13,27 @@
   justify-content: center;
   align-items: center;
 }
-#Scope .container .section-container .section .image img {
+#Scope .container .section-container .section .image {
   width: 100%;
+}
+#Scope .container .section-container .section .image picture {
+  display: grid;
+  place-items: center;
+}
+#Scope .container .section-container .section .image picture img {
+  width: 100%;
+  height: 100%;
 }
 #Scope .container .section-container .section .details {
   position: absolute;
   width: 320px;
   text-align: center;
-  transform: translateY(120px);
+  transform: translateY(110px);
 }
 #Scope .container .section-container .section .details .title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-#Scope .container .section-container .section .details .title h1 {
+#Scope .container .section-container .section .details .title h2 {
   font-family: var(--font_title);
 }
 
